@@ -63,6 +63,10 @@ background-size: 1800% 1800%;
 	background: linear-gradient(to bottom,transparent 0,rgba(61, 61, 61, 0.35) 100%);
 }
 
+.chevron::before, .chevron:after {
+  display: none;
+}
+
 /* Upravení tlačítek */
 
 #dj-button {
@@ -122,6 +126,23 @@ background-size: 1800% 1800%;
 
 #vote .crowd-response {
   margin-right: 0px;
+}
+
+.votes-rs {
+  width: 252px;
+  background: var(--transparent-back);
+}
+
+.title.woot {
+  background: var(--woot);
+}
+
+.title.grab {
+  background: var(--grab);
+}
+
+.title.meh {
+  background: var(--meh);
 }
 
 /* User roller */
