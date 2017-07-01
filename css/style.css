@@ -50,7 +50,7 @@ background-size: 1800% 1800%;
 }
 
 #footer-user .buttons .button {
-  box-shadow: inset 0px 0 0 0 #0a0a0a;
+  box-shadow: inset 0px 0 0 0 #0a0a0a !important;
 }
 
 #playlist-button {
