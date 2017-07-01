@@ -33,11 +33,22 @@
 /* Upravení tlačítek */
 
 #dj-button {
-  background-color: #171717;
+  background-color: #202020;
+  border-radius: 0px;
 }
 
 #dj-button .left {
   background: linear-gradient(135deg, #f600ff 0%,#008cff 100%);
+  border-radius: 0px;
+}
+
+#woot, #meh, #grab {
+  border-radius: 0px;
+}
+
+#vote .crowd-response {
+  background-color: #202020;
+  margin-right: 0px;
 }
 
 /* User roller */
