@@ -77,7 +77,7 @@ background-size: 1800% 1800%;
   display: none;
 }
 
-#appmenu {
+#ap-pmenu {
   background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%) !important;
 }
 
