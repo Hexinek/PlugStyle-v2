@@ -49,6 +49,10 @@ background-size: 1800% 1800%;
 	background: var(--transparent-back);
 }
 
+#button {
+  box-shadow: inset 0px 0 0 0 #0a0a0a;
+}
+
 #playlist-button {
     background: linear-gradient(to bottom, var(--gradient-1) 0%,var(--gradient-2) 100%);
 }
@@ -73,7 +77,7 @@ background-size: 1800% 1800%;
   display: none;
 }
 
-#appmenu .button {
+#appmenu {
   background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%);
 }
 
@@ -104,6 +108,14 @@ background-size: 1800% 1800%;
 
 .logout div span {
   color: #fff !important;
+}
+
+.bar-divider {
+  background: transparent;
+}
+
+#room .app-right {
+  background: var(--transparent-back);
 }
 
 /* Upravení tlačítek */
@@ -212,6 +224,6 @@ background-size: 1800% 1800%;
 
 /* Chat */
 
-#chat-messages {
+#chat-messages, #chat-header {
   border-bottom: 0px;
 }
