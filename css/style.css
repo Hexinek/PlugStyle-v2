@@ -4,15 +4,9 @@
   animation:rainbow 10s infinite;
 }
 @keyframes rainbow {
-  0% {color: #ed5565;}
-  12.5% {color: #fc6e51;}
-  25% {color: #ffce54;}
-  37.5% {color: #a0d468;}
-  50% {color: #48cfad;}
-  62.5% {color: #4fc1e9;}
-  75% {color: #5d9cec;}
-  87.5% {color: #ec87c0;}
-  100% {color: #ed5565;}
+  0% {color: #f600ff;}
+  50% {color: #008cff;}
+  100% {color: #f600ff;}
 }
 /* End Developeři Stylu - Perk xD | Diník */
 
