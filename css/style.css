@@ -1,6 +1,6 @@
 /* Developeři Stylu - Perk xD | Diník */
-#user-rollover.id-5383370 .username:hover, #chat [data-cid^="5383370"] span.un.clickable:hover,
-#user-rollover.id-4664447 .username:hover, #chat [data-cid^="4664447"] span.un.clickable:hover {
+#user-rollover.id-5383370 .username:hover, #chat [data-cid^="5383370"] span.un.clickable,
+#user-rollover.id-4664447 .username:hover, #chat [data-cid^="4664447"] span.un.clickable {
   animation:rainbow 10s infinite;
 }
 @keyframes rainbow {
