@@ -2,9 +2,9 @@
 :root {
   --gradient-1: #f600ff;
   --gradient-2: #008cff;
-  --woot: #90ad2f;
-  --grab: #aa74ff;
-  --meh: #c42e3b;
+  --woot: linear-gradient(135deg, #00fc86 0%,#08b200 100%);;
+  --grab: linear-gradient(135deg, #ff00ff 0%,#d400ff 100%);;
+  --meh: linear-gradient(135deg, #ff595c 0%,#d30000 100%);;
   --main-black: #202020;
   --transparent-back: rgba(0, 0, 0, 0.65);
 }
@@ -63,11 +63,6 @@ background-size: 1800% 1800%;
 	background: linear-gradient(to bottom,transparent 0,rgba(61, 61, 61, 0.35) 100%);
 }
 
-/* zrušit - bugy se stylem
-.chevron {
-  display: none;
-}*/
-
 /* Upravení tlačítek */
 
 #dj-button {
@@ -114,15 +109,15 @@ background-size: 1800% 1800%;
 }
 
 #woot .bottom, #woot.selected {
-  background-color: var(--woot);
+  background: var(--woot);
 }
 
 #grab .bottom, #grab.selected {
-  background-color: var(--grab);
+  background: var(--grab);
 }
 
 #meh .bottom, #meh.selected {
-  background-color: var(--meh);
+  background: var(--meh);
 }
 
 #vote .crowd-response {
