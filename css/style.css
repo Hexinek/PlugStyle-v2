@@ -78,7 +78,7 @@ background-size: 1800% 1800%;
 }
 
 #appmenu {
-  background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%);
+  background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%) !important;
 }
 
 #app-menu .list {
