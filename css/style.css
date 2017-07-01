@@ -1,13 +1,24 @@
-/* Developeři Stylu - Perk xD | Diník */
+/* Variables */
+:root {
+  --gradient-1: #f600ff;
+  --gradient-2: #008cff;
+  --woot: #8bc34a;
+  --grab: #673ab7;
+  --meh: #e53935;
+  --main-black: #202020;
+}
+
+/* Developer rank */
 #user-rollover.id-5383370 .username, #chat [data-cid^="5383370"] span.un.clickable,
 #user-rollover.id-4664447 .username, #chat [data-cid^="4664447"] span.un.clickable {
   animation:rainbow 3s infinite;
 }
+
 @keyframes rainbow {
-  0% {color: #f600ff;}
-  50% {color: #008cff;}
-  100% {color: #f600ff;}
+  0% {color: var(--gradient-1);}
+  100% {color: var(--gradient-2);}
 }
+
 /* End Developeři Stylu - Perk xD | Diník */
 
 /* Footer */
@@ -15,7 +26,7 @@
 	background: rgba(0, 0, 0, 0.65);
 }
 #playlist-button {
-    background: linear-gradient(to bottom, #f600ff 0%,#008cff 100%);
+    background: linear-gradient(to bottom, var(--gradient-1) 0%,var(--gradient-2) 100%);
 }
 .app-header {
 	background: rgba(0, 0, 0, 0.65);
@@ -33,12 +44,12 @@
 /* Upravení tlačítek */
 
 #dj-button {
-  background-color: #202020;
+  background-color: var(--main-black);
   border-radius: 5px;
 }
 
 #dj-button .left {
-  background: linear-gradient(135deg, #f600ff 0%,#008cff 100%);
+  background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%);
   border-radius: 5px 0 0 5px;
 }
 
@@ -51,28 +62,31 @@
 }
 
 #vote .crowd-response.disabled .bottom {
-  background-color: #202020;
+  background-color: var(--main-black);
   border-radius: 5px;
+}
+
+#vote .crowd-response.selected {
+  box-shadow: inset 0 0 0 rgba(0,0,0,0.0)
 }
 
 #woot .bottom, #grab .bottom, #meh .bottom {
   background: rgba(0,0,0,0);
 }
 
-#woot .bottom, #woot .selected {
-  background-color: #2ed95d;
+#woot .bottom, #woot.selected {
+  background-color: var(--woot);
 }
 
-#grab .bottom, #grab .selected {
-  background-color: #8b18fe;
+#grab .bottom, #grab.selected {
+  background-color: var(--grab);
 }
 
-#meh .bottom, #meh .selected {
-  background-color: #ed5565;
+#meh .bottom, #meh.selected {
+  background-color: var(--meh);
 }
 
 #vote .crowd-response {
-  background-color: #202020;
   margin-right: 0px;
 }
 
@@ -83,11 +97,11 @@
 }
 
 #user-rollover .info {
-  background: linear-gradient(135deg, #f600ff 0%,#008cff 100%);
+  background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%);
 }
 
 #user-rollover {
-  background-color: #141417 !important;
+  background-color: var(--main-black) !important;
 }
 
 #user-rollover .arrow-down {
