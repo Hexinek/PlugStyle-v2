@@ -47,3 +47,21 @@ animation:rainbow 10s infinite;
 #dj-button .left {
   background: linear-gradient(135deg, #f600ff 0%,#008cff 100%);
 }
+
+/* User roller */
+
+#user-rollover .meta.online {
+  background-color: rgba(0,0,0,0.0) !important;
+}
+
+#user-rollover .info {
+  background: linear-gradient(135deg, #f600ff 0%,#008cff 100%);
+}
+
+#user-rollover {
+  background-color: #141417 !important;
+}
+
+#user-rollover .arrow-down {
+  display: none;
+}
