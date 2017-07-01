@@ -34,36 +34,36 @@
 
 #dj-button {
   background-color: #202020;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
 #dj-button .left {
   background: linear-gradient(135deg, #f600ff 0%,#008cff 100%);
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
 #woot, #meh, #grab {
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
-.response-disabled .bottom {
+#vote .crowd-response.disabled .bottom {
   background-color: #202020;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
-#woot .selected, #grab .selected, #meh .selected {
+#woot .bottom, #grab .bottom, #meh .bottom {
   background: rgba(0,0,0,0);
 }
 
-#woot .selected {
-  background-color: #2fff69;
+#woot .bottom, #woot .selected {
+  background-color: #2ed95d;
 }
 
-#grab .selected {
+#grab .bottom, #grab .selected {
   background-color: #8b18fe;
 }
 
-#meh .selected {
+#meh .bottom, #meh .selected {
   background-color: #ed5565;
 }
 
