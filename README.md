@@ -1,3 +1,3 @@
-# PlugStyle v2 ^_^
+# CraftMania Plug.dj Style v2
 
-Nová verze Plug.dj Stylu pro komunitu CraftMania.cz! Již brzy ve vašich prohlížečích!
+![CraftMania Logo](https://craftmaniacz.github.io/PlugStyle-v2/images/logo.png)
