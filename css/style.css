@@ -35,7 +35,7 @@ animation:rainbow 10s infinite;
     background: transparent;
 }
 .header-panel-button.selected {
-	background: linear-gradient(to bottom,transparent 0,rgba(61, 61, 61, 0.35) 100%) !important;
+	background: linear-gradient(to bottom, #f600ff 0%,#008cff 100%);
 }
 
 /* Upravení tlačítek */
