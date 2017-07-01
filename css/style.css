@@ -23,7 +23,7 @@
 	background: rgba(0, 0, 0, 0.65);
 }
 #playlist-button {
-    background: linear-gradient(rgb(255, 92, 222) 0px, rgb(87, 0, 255) 100%);
+    background: linear-gradient(to bottom, #f600ff 0%,#008cff 100%);
 }
 .app-header {
 	background: rgba(0, 0, 0, 0.65);
@@ -35,7 +35,7 @@
     background: transparent;
 }
 .header-panel-button.selected {
-	background: linear-gradient(to bottom, #f600ff 0%,#008cff 100%);
+	background: linear-gradient(to bottom,transparent 0,rgba(61, 61, 61, 0.35) 100%);
 }
 
 /* Upravení tlačítek */
