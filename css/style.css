@@ -73,7 +73,7 @@ background-size: 1800% 1800%;
   display: none;
 }
 
-.button {
+#appmenu .button {
   background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%);
 }
 
