@@ -88,6 +88,14 @@ background-size: 1800% 1800%;
   border-radius: 0 5px 5px 0;
 }
 
+#meh {
+  border-radius: 0 0 5px 0;
+}
+
+#woot .bottom {
+  border-radius: 0 0 0 5px;
+}
+
 #vote .crowd-response {
   background-color: var(--transparent-back);
 }
