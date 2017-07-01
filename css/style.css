@@ -2,10 +2,11 @@
 :root {
   --gradient-1: #f600ff;
   --gradient-2: #008cff;
-  --woot: #8bc34a;
-  --grab: #673ab7;
-  --meh: #e53935;
+  --woot: #10d02e;
+  --grab: #7a44db;
+  --meh: #f94c48;
   --main-black: #202020;
+  --transparent-back: rgba(0, 0, 0, 0.65);
 }
 
 /* Developer rank */
@@ -16,20 +17,19 @@
 
 @keyframes rainbow {
   0% {color: var(--gradient-1);}
+  50% {color: var(--gradient-2);}
   100% {color: var(--gradient-2);}
 }
 
-/* End Developeři Stylu - Perk xD | Diník */
-
 /* Footer */
 #footer {
-	background: rgba(0, 0, 0, 0.65);
+	background: var(--transparent-back);
 }
 #playlist-button {
     background: linear-gradient(to bottom, var(--gradient-1) 0%,var(--gradient-2) 100%);
 }
 .app-header {
-	background: rgba(0, 0, 0, 0.65);
+	background: var(--transparent-back);
 }
 #rs-skip-button {
     background: transparent !important;
@@ -39,6 +39,10 @@
 }
 .header-panel-button.selected {
 	background: linear-gradient(to bottom,transparent 0,rgba(61, 61, 61, 0.35) 100%);
+}
+
+.chevron {
+  display: none;
 }
 
 /* Upravení tlačítek */
@@ -59,6 +63,10 @@
 
 #meh {
   border-radius: 0 5px 5px 0;
+}
+
+#vote .crowd-response {
+  background-color: var(--transparent-back);
 }
 
 #vote .crowd-response.disabled .bottom {
@@ -106,4 +114,18 @@
 
 #user-rollover .arrow-down {
   display: none;
+}
+
+#user-rollover .info .role span {
+  color: #fff !important;
+}
+
+.badge-box {
+  background: rgba(0,0,0,0);
+}
+
+/* Chat */
+
+#chat-messages {
+  border-bottom: 0px;
 }
