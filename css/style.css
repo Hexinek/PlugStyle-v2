@@ -48,18 +48,23 @@ background-size: 1800% 1800%;
 #footer {
 	background: var(--transparent-back);
 }
+
 #playlist-button {
     background: linear-gradient(to bottom, var(--gradient-1) 0%,var(--gradient-2) 100%);
 }
+
 .app-header {
 	background: var(--transparent-back);
 }
+
 #rs-skip-button {
     background: transparent !important;
 }
+
 #history-button {
     background: transparent;
 }
+
 .header-panel-button.selected {
 	background: linear-gradient(to bottom,transparent 0,rgba(61, 61, 61, 0.35) 100%);
 }
