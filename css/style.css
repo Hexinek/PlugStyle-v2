@@ -39,11 +39,15 @@
 
 #dj-button .left {
   background: linear-gradient(135deg, #f600ff 0%,#008cff 100%);
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
 }
 
-#woot, #meh, #grab {
-  border-radius: 5px;
+#woot {
+  border-radius: 5px 0 0 5px;
+}
+
+#meh {
+  border-radius: 0 5px 5px 0;
 }
 
 #vote .crowd-response.disabled .bottom {
