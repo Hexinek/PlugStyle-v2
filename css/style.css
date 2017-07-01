@@ -68,6 +68,39 @@ background-size: 1800% 1800%;
   display: none;
 }
 
+.button {
+  background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%);
+}
+
+#app-menu .list {
+  background-color: #121212;
+}
+
+#app-menu .list .item {
+  box-shadow: inset 0 0 0 0 #323742;
+}
+
+.rcsunload, .logout {
+  background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%) !important;
+  border: 1px solid #121212;
+}
+
+.rcsunload div i {
+  display: none;
+}
+
+.rcsunload div span {
+  color: #fff !important;
+}
+
+.logout div i {
+  display: none;
+}
+
+.logout div span {
+  color: #fff !important;
+}
+
 /* Upravení tlačítek */
 
 #dj-button {
