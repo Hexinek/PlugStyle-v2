@@ -2,7 +2,7 @@
 :root {
   --gradient-1: #f600ff;
   --gradient-2: #008cff;
-  --woot: linear-gradient(135deg, #00fc86 0%,#08b200 100%);;
+  --woot: linear-gradient(135deg, #16e383 0%,#08b200 100%);;
   --grab: linear-gradient(135deg, #ff00ff 0%,#d400ff 100%);;
   --meh: linear-gradient(135deg, #ff595c 0%,#d30000 100%);;
   --main-black: #202020;
