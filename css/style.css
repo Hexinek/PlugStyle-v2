@@ -37,3 +37,13 @@ animation:rainbow 10s infinite;
 .header-panel-button.selected {
 	background: linear-gradient(to bottom,transparent 0,rgba(61, 61, 61, 0.35) 100%) !important;
 }
+
+/* Upravení tlačítek */
+
+.dj-button {
+  background-color: #171717;
+}
+
+.dj-button .left {
+  background: linear-gradient(135deg, #f600ff 0%,#00c3ff 100%);
+}
