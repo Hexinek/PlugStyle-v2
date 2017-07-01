@@ -1,8 +1,8 @@
 {
     "room": "CraftMania.cz Official",
     "author": null,
-    "icon": null,
-    "css": null,
+    "icon": "https://craftmaniacz.github.io/PlugStyle-v2/images/logo.png",
+    "css": "https://craftmaniacz.github.io/PlugStyle-v2/css/style.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
@@ -27,7 +27,7 @@
         "user": null
     },
     "images": {
-        "background": "https://dinikcz.github.io/CM-CCS/plug/background.png",
+        "background": null,
         "playback": null,
         "admin": null,
         "ambassador": null,
