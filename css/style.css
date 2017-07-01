@@ -93,7 +93,7 @@ background-size: 1800% 1800%;
 }
 
 #vote .crowd-response.disabled .bottom {
-  background-color: var(--transparent-back);
+  background: rgba(0,0,0,0);
   border-radius: 5px;
 }
 
