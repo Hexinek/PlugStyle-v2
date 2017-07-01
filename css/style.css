@@ -1,7 +1,7 @@
 /* Developeři Stylu - Perk xD | Diník */
 #user-rollover.id-5383370 .username, #chat [data-cid^="5383370"] span.un.clickable,
 #user-rollover.id-4664447 .username, #chat [data-cid^="4664447"] span.un.clickable {
-  animation:rainbow 10s infinite;
+  animation:rainbow 3s infinite;
 }
 @keyframes rainbow {
   0% {color: #f600ff;}
@@ -44,6 +44,27 @@
 
 #woot, #meh, #grab {
   border-radius: 0px;
+}
+
+.response-disabled .bottom {
+  background-color: #202020;
+  border-radius: 0px;
+}
+
+#woot .selected, #grab .selected, #meh .selected {
+  background: rgba(0,0,0,0);
+}
+
+#woot .selected {
+  background-color: #2fff69;
+}
+
+#grab .selected {
+  background-color: #8b18fe;
+}
+
+#meh .selected {
+  background-color: #ed5565;
 }
 
 #vote .crowd-response {
