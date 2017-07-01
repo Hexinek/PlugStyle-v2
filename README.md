@@ -17,7 +17,7 @@ Postup pro ostatní prohlížeče je následující:
 3. Nainstaluje Userscript do rozšíření
 4. Přejdi na stránku Plug.dj
 
-## Instalace stylu
+### Instalace stylu
 Pokud se nacházíš přímo v komunite CraftManie, tak se ti styl sám aktivuje. Nezapomeň že musíš mít nainstalovaný RCS doplňek. Bez něho se nestane nic. Pokud však hodláš využívat styl mimo jiné komunity, postupuj podle následujícíh pokynů.
 1. Při připojení do Plug.DJ Komunity uvidíš tlačítko s písmenem "R"
 Kliknutím na "R" otevřeš RCS Nastavení.
