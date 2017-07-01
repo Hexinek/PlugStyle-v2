@@ -2,9 +2,9 @@
 :root {
   --gradient-1: #f600ff;
   --gradient-2: #008cff;
-  --woot: #10d02e;
-  --grab: #7a44db;
-  --meh: #f94c48;
+  --woot: hsla(90,80%,44%,1.00);
+  --grab: hsla(270,70%,44%,1.00);
+  --meh: hsla(5,80%,44%,1.00)
   --main-black: #202020;
   --transparent-back: rgba(0, 0, 0, 0.65);
 }
@@ -124,7 +124,7 @@ background-size: 1800% 1800%;
 /* User roller */
 
 #user-rollover .meta.online {
-  background-color: rgba(0,0,0,0.0) !important;
+  background-color: rgba(0,0,0,0.45) !important;
 }
 
 #user-rollover .info {
@@ -132,7 +132,7 @@ background-size: 1800% 1800%;
 }
 
 #user-rollover {
-  background-color: var(--main-black) !important;
+  background-color: rgba(0,0,0,0.45) !important;
 }
 
 #user-rollover .arrow-down {
