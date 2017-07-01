@@ -181,19 +181,19 @@ background-size: 1800% 1800%;
 
 .votes-rs {
   width: 252px;
-  background: var(--transparent-back);
+  background: var(--transparent-back) !important;
 }
 
 .title.woot {
-  background: var(--woot);
+  background: var(--woot) !important;
 }
 
 .title.grab {
-  background: var(--grab);
+  background: var(--grab) !important;
 }
 
 .title.meh {
-  background: var(--meh);
+  background: var(--meh) !important;
 }
 
 /* User roller */
