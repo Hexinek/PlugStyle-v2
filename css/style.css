@@ -2,9 +2,9 @@
 :root {
   --gradient-1: #f600ff;
   --gradient-2: #008cff;
-  --woot: hsla(90,80%,44%,1.00);
-  --grab: hsla(270,70%,44%,1.00);
-  --meh: hsla(5,80%,44%,1.00)
+  --woot: #90ad2f;
+  --grab: #aa74ff;
+  --meh: #c42e3b;
   --main-black: #202020;
   --transparent-back: rgba(0, 0, 0, 0.65);
 }
@@ -38,7 +38,7 @@ background-size: 1800% 1800%;
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
-@keyframes rainbow { 
+@keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
@@ -93,7 +93,7 @@ background-size: 1800% 1800%;
 }
 
 #vote .crowd-response.disabled .bottom {
-  background-color: var(--main-black);
+  background-color: var(--transparent-back);
   border-radius: 5px;
 }
 
