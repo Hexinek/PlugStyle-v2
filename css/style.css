@@ -40,10 +40,10 @@ animation:rainbow 10s infinite;
 
 /* Upravení tlačítek */
 
-.dj-button {
+#dj-button {
   background-color: #171717;
 }
 
-.dj-button .left {
+#dj-button .left {
   background: linear-gradient(135deg, #f600ff 0%,#00c3ff 100%);
 }
