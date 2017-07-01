@@ -18,7 +18,7 @@
 @keyframes rainbow {
   0% {color: var(--gradient-1);}
   50% {color: var(--gradient-2);}
-  100% {color: var(--gradient-2);}
+  100% {color: var(--gradient-1);}
 }
 
 /* Footer */
@@ -48,7 +48,7 @@
 /* Upravení tlačítek */
 
 #dj-button {
-  background-color: var(--main-black);
+  background-color: var(--transparent-back);
   border-radius: 5px;
 }
 
