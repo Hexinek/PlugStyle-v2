@@ -114,6 +114,18 @@
   background: var(--transparent-back);
 }
 
+#rcs-progress-container .bar {
+    background: linear-gradient(135deg, var(--gradient-1) 0%,var(--gradient-2) 100%);
+}
+
+#rcs-progress-container {
+    height: 100%;
+}
+
+#now-playing-dj .dark-label {
+  color: #fff;
+}
+
 /* Upravení tlačítek */
 #dj-button {
   background-color: var(--transparent-back);
@@ -201,7 +213,7 @@
 }
 
 #user-rollover {
-  background-color: rgba(0,0,0,0.45) !important;
+  background-color: rgba(0,0,0,0.6) !important;
 }
 
 #user-rollover .arrow-down {
