@@ -233,6 +233,6 @@
   left: 185px !important;
   width: 125px !important;
   height: 125px !important;
-  background: url(https://craftmaniacz.github.io/PlugStyle-v2/images/logo.png) no-repeat !important;
+  background: url('https://craftmaniacz.github.io/PlugStyle-v2/images/logo.png') no-repeat !important;
   background-size: contain !important;
 }
