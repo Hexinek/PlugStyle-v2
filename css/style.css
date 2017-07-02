@@ -220,16 +220,12 @@
   display: none;
 }
 
-#user-rollover .info .role span {
+#user-rollover .info .level .label {
   color: #fff !important;
 }
 
 .badge-box {
   background: rgba(0,0,0,0);
-}
-
-#user-rollover .info .level .label {
-  color: #fff;
 }
 
 /* Chat */
