@@ -22,6 +22,7 @@
 
 /* Developer rank */
 #user-rollover.id-5383370 .username, #chat [data-cid^="5383370"] span.un.clickable,
+#user-rollover.id-28551097 .username, #chat [data-cid^="28551097"] span.un.clickable,
 #user-rollover.id-4664447 .username, #chat [data-cid^="4664447"] span.un.clickable {
   animation: rainbow 10s ease infinite;
 }
