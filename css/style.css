@@ -15,21 +15,15 @@
   height: 900px !important;
 }
 
+.cm.welcome .text:after {
+  content: ' Tento nový styl je nyní v BETA verzi. Neobsahuje veškeré funkce a může obsahovat chyby. Pokud nějakou najdeš, neváhej nám ji nahlásit!';
+  color: #ff0080
+}
+
 /* Developer rank */
 #user-rollover.id-5383370 .username, #chat [data-cid^="5383370"] span.un.clickable,
 #user-rollover.id-4664447 .username, #chat [data-cid^="4664447"] span.un.clickable {
   animation: rainbow 10s ease infinite;
-}
-
-#user-rollover.id-5383370 .username, #chat [data-cid^="5383370"] span.un.clickable,
-#user-rollover.id-4664447 .username, #chat [data-cid^="4664447"] span.un.clickable {
-
-}
-
-#user-rollover.role-bouncer .thumb {
-  animation: rainbow 10s ease infinite;
-  transition-property: border-color;
-  transition: rainbow 10s ease infinite;
 }
 
 @keyframes rainbow {
