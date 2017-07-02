@@ -9,6 +9,12 @@
   --transparent-back: rgba(0, 0, 0, 0.65);
 }
 
+/* Aplikace */
+.room-background {
+  width: 1600px !important;
+  height: 900px !important;
+}
+
 /* Developer rank */
 #user-rollover.id-5383370 .username, #chat [data-cid^="5383370"] span.un.clickable,
 #user-rollover.id-4664447 .username, #chat [data-cid^="4664447"] span.un.clickable {
