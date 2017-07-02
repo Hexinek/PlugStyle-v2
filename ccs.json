@@ -28,7 +28,7 @@
     },
     "images": {
         "background": "https://craftmaniacz.github.io/PlugStyle-v2/images/back.png",
-        "playback": null,
+        "playback": "https://craftmaniacz.github.io/PlugStyle-v2/images/playback.png",
         "admin": null,
         "ambassador": null,
         "host": null,
