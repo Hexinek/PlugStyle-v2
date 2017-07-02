@@ -137,8 +137,8 @@
   border-radius: 0 0 5px 0;
 }
 
-#woot .bottom {
-  border-radius: 0 0 0 5px;
+#woot .bottom, #woot.crowd-response.disabled.active .bottom {
+  border-radius: 0 0 0 5px !important;
 }
 
 #vote .crowd-response {
@@ -159,15 +159,15 @@
 }
 
 #woot .bottom, #woot.selected {
-  background: var(--woot);
+  background: var(--woot) !important;
 }
 
 #grab .bottom, #grab.selected {
-  background: var(--grab);
+  background: var(--grab) !important;
 }
 
 #meh .bottom, #meh.selected {
-  background: var(--meh);
+  background: var(--meh) !important;
 }
 
 #vote .crowd-response {
